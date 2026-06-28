@@ -746,17 +746,7 @@
     <!-- PROBLEMI E SOLUZIONI -->
     <section id="problemi-soluzioni" class="section">
         <h2>Problematiche e <span class="gradient">Soluzioni</span></h2>
-        <div class="content-grid">
-            <div class="card scroll-reveal">
-                <h3><i class="bi bi-bug"></i> Bug: Password Non Hashata</h3>
-                <p>
-                    <strong>Problema:</strong> Inizialmente salvavo password in plaintext nel database. 
-                    Scoperto in code review, era un vulnerability critico.<br>
-                    <strong>Soluzione:</strong> Implementai bcrypt hashing con salt. 
-                    Migrai tutte le password esistenti. Addai test per verificare password non sono plaintext.<br>
-                    <strong>Imparato:</strong> Sicurezza non è optional. OWASP top 10.
-                </p>
-            </div>
+        
             <div class="card scroll-reveal">
                 <h3><i class="bi bi-exclamation-triangle"></i> Problema: N+1 Queries</h3>
                 <p>
