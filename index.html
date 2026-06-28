@@ -249,7 +249,7 @@
                     <strong>Durata:</strong> 15-27 Settembre 2025 (2 settimane FSL)<br>
                     <strong>Orario:</strong> Lunedì-Venerdì, 8:30-17:00 con pausa pranzo<br>
                     <strong>Totale ore:</strong> Circa 80 ore di lavoro in azienda<br>
-                    <strong>Location:</strong> Sede Meditrial SRL - Roma
+                    <strong>Location:</strong> Sede Meditrial SRL - Terni
                 </p>
             </div>
             <div class="card scroll-reveal">
@@ -430,19 +430,7 @@
                     La bellezza di Flask è la semplicità: poche linee di codice per molto potere.
                 </p>
             </div>
-            <div class="card scroll-reveal">
-                <h3><i class="bi bi-database"></i> Database MySQL - Struttura</h3>
-                <p>
-                    Ho progettato un <strong>database relazionale normalizzato</strong> con tabelle:
-                    <br><strong>users:</strong> id, email, password_hash, nome, ruolo, data_creazione<br>
-                    <strong>meetings:</strong> id, user_id, titolo, data_meeting, durata, descrizione<br>
-                    <strong>transcriptions:</strong> id, meeting_id, testo, language, created_at<br>
-                    <strong>uploads:</strong> id, meeting_id, filename, file_path, size, mime_type<br>
-                    <strong>analytics:</strong> id, meeting_id, total_duration, word_count, sentiment<br>
-                    <br>
-                    Relazioni: users → meetings → transcriptions/uploads/analytics
-                </p>
-            </div>
+            
             <div class="card scroll-reveal">
                 <h3><i class="bi bi-key"></i> Autenticazione e Sicurezza</h3>
                 <p>
@@ -452,7 +440,6 @@
                     <strong>CSRF Protection:</strong> Token CSRF su form POST<br>
                     <strong>SQL Injection Prevention:</strong> Prepared statements nelle query<br>
                     <strong>Input Validation:</strong> Validazione lato server di tutti gli input<br>
-                    <strong>Dati Sensibili:</strong> Encryption per dati personali/medici<br>
                     Nel contesto della ricerca clinica, la sicurezza è non-negoziabile.
                 </p>
             </div>
@@ -519,19 +506,7 @@
                     Admin può monitorare utilizzo piattaforma e identificare bottleneck.
                 </p>
             </div>
-            <div class="card scroll-reveal">
-                <h3><i class="bi bi-rocket"></i> Deploy e Performance</h3>
-                <p>
-                    <strong>Optimization:</strong> Caching di trascrizioni, lazy loading<br>
-                    <strong>CDN:</strong> Distribuzione di asset statici su CDN<br>
-                    <strong>Compression:</strong> Gzip compression per response HTTP<br>
-                    <strong>Database Indexing:</strong> Indici su colonne frequentemente queryate<br>
-                    <strong>Load Testing:</strong> Testato con 1000+ concurrent users<br>
-                    <strong>Monitoring:</strong> Log errors, performance metrics<br>
-                    <strong>Uptime:</strong> Target di 99.9% availability<br>
-                    L'applicazione risponde in &lt;200ms anche con alta concorrenza.
-                </p>
-            </div>
+            
             <div class="card scroll-reveal">
                 <h3><i class="bi bi-check-circle"></i> Testing e QA</h3>
                 <p>
@@ -544,19 +519,7 @@
                     Code coverage >80%. Qualsiasi bug viene tracciato e fixato in priorità.
                 </p>
             </div>
-            <div class="card scroll-reveal">
-                <h3><i class="bi bi-journal"></i> Documentazione</h3>
-                <p>
-                    Ho scritto documentazione completa:<br>
-                    <strong>README.md:</strong> Setup, installation, usage<br>
-                    <strong>API Documentation:</strong> Swagger/OpenAPI per tutti gli endpoint<br>
-                    <strong>Database Schema:</strong> ER diagram e spiegazione relazioni<br>
-                    <strong>Code Comments:</strong> Commenti in inglese su funzioni complesse<br>
-                    <strong>User Guide:</strong> Tutorial per end users<br>
-                    <strong>Deployment Guide:</strong> Come deployare su server<br>
-                    Documentazione è critica per manutenibilità nel tempo.
-                </p>
-            </div>
+            
             <div class="card scroll-reveal">
                 <h3><i class="bi bi-arrow-repeat"></i> Future Improvements</h3>
                 <p>
@@ -658,16 +621,7 @@
                     Ho implementato REST principles: GET retrieve, POST create, PUT update, DELETE remove. Status code HTTP appropriati.
                 </p>
             </div>
-            <div class="card scroll-reveal">
-                <h3><i class="bi bi-git"></i> Git & Version Control</h3>
-                <p>
-                    <strong>Ruolo:</strong> Source code management<br>
-                    <strong>Utilizzo:</strong> Tracking cambiamenti, collaborazione team<br>
-                    <strong>Vantaggi:</strong> History, branching, merging, blame<br>
-                    <strong>Difficoltà:</strong> Merge conflicts, rebasing, cherry-picking<br>
-                    Ho usato Git con GitHub. Feature branches, pull requests, code review. Commit messages descrittivi.
-                </p>
-            </div>
+           
             <div class="card scroll-reveal">
                 <h3><i class="bi bi-server"></i> phpMyAdmin</h3>
                 <p>
@@ -678,16 +632,7 @@
                     PhpMyAdmin è utile per debugging ma in production si preferisce query CLI.
                 </p>
             </div>
-            <div class="card scroll-reveal">
-                <h3><i class="bi bi-cloud-arrow-up"></i> Cloud Deployment</h3>
-                <p>
-                    <strong>Ruolo:</strong> Hosting dell'applicazione<br>
-                    <strong>Utilizzo:</strong> Server, database, storage in cloud<br>
-                    <strong>Vantaggi:</strong> Scalability, reliability, disaster recovery<br>
-                    <strong>Difficoltà:</strong> Cost management, security, compliance<br>
-                    Applicazione deployata su cloud (AWS, Azure, o GCP) per accesso globale 24/7.
-                </p>
-            </div>
+            
             <div class="card scroll-reveal">
                 <h3><i class="bi bi-layout-three-columns"></i> Full-Stack Architecture</h3>
                 <p>
